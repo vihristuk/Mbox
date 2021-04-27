@@ -483,3 +483,8 @@ a {
 .auth__item_no-ml {
   margin-left: 0;
 }
+
+.hero__main {
+  width: 1130px;
+  margin: 0 auto;
+}
