@@ -1,0 +1,44 @@
+.section__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    margin-left: 16px;
+    position: relative;
+    &::before {
+        content: "";
+        background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+        border-radius: 50px;
+        height: 35px;
+        width: 6px;
+        position: absolute;
+        top: -11px;
+        left: -16px;
+    }
+}
+
+.section__tittle_margin-top {
+    margin-top: 100px;
+}
+
+.trending__shows {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.trending__show {
+    box-shadow: 0 0 23px -10px #26FFF2;
+    border-radius: 20px;
+}
+
+.trending__movies {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.trending__movie {
+    border-radius: 20px;
+}
