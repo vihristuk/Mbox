@@ -1,5 +1,9 @@
+.banners__container {
+    align-items: center;
+}
+
 .banners__comming-soon {
-    width: 100%;
+    width: 1440px;
     height: 341px;
     background: linear-gradient(87.02deg, #0D1A73 29.67%, #000000 70.52%);
     box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
@@ -28,4 +32,47 @@
     font-size: 64px;
     line-height: 20px;
     text-transform: capitalize;
+}
+
+.banners__register-now {
+    // display: flex;
+    // align-items: center;
+    width: 1224px;
+    height: 270px;
+    margin-bottom: 121px;
+    border-radius: 20px;
+    background-image: url(/img/register_now.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.register-now__gradient {
+    display: flex;
+    align-items: center;
+    width: 1224px;
+    height: 270px;
+    padding: 0 57px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(336.56deg, rgba(0, 0, 0, 0.5) 58.12%, rgba(255, 255, 255, 0.5) 124.09%);
+    border-radius: 20px;
+}
+
+.register-now__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.register-now__button {
+    padding-left: 70px;
+}
+
+.button_padding {
+    padding: 15px 20px;
 }

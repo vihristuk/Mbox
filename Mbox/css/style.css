@@ -394,6 +394,11 @@ template {
   font-style: normal;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #000;
   color: #fff;
@@ -570,7 +575,7 @@ a {
 }
 
 .button {
-  width: 73px;
+  width: 143px;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -584,7 +589,7 @@ a {
 }
 
 .main__button-watch {
-  width: 80px;
+  width: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -642,12 +647,20 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .trending__show {
   -webkit-box-shadow: 0 0 23px -10px #26FFF2;
           box-shadow: 0 0 23px -10px #26FFF2;
   border-radius: 20px;
+}
+
+.section-slider-button {
+  position: absolute;
+  right: -45px;
+  top: 50%;
+  margin-top: -17px;
 }
 
 .trending__movies {
@@ -658,6 +671,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .trending__movie {
@@ -689,6 +703,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 40px;
+  position: relative;
 }
 
 .popular__channel {
@@ -702,7 +717,8 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
+  position: relative;
 }
 
 .popular__actor {
@@ -725,8 +741,14 @@ a {
   margin-bottom: -35px;
 }
 
+.banners__container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .banners__comming-soon {
-  width: 100%;
+  width: 1440px;
   height: 341px;
   background: -o-linear-gradient(2.98deg, #0D1A73 29.67%, #000000 70.52%);
   background: linear-gradient(87.02deg, #0D1A73 29.67%, #000000 70.52%);
@@ -765,3 +787,51 @@ a {
   line-height: 20px;
   text-transform: capitalize;
 }
+
+.banners__register-now {
+  width: 1224px;
+  height: 270px;
+  margin-bottom: 121px;
+  border-radius: 20px;
+  background-image: url(/img/register_now.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.register-now__gradient {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1224px;
+  height: 270px;
+  padding: 0 57px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: -o-linear-gradient(113.44deg, rgba(0, 0, 0, 0.5) 58.12%, rgba(255, 255, 255, 0.5) 124.09%);
+  background-image: linear-gradient(336.56deg, rgba(0, 0, 0, 0.5) 58.12%, rgba(255, 255, 255, 0.5) 124.09%);
+  border-radius: 20px;
+}
+
+.register-now__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+
+.register-now__button {
+  padding-left: 70px;
+}
+
+.button_padding {
+  padding: 15px 20px;
+}
+
+.webp .banners__register-now{ background-image: url(/img/register_now.webp); }

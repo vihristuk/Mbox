@@ -13,6 +13,9 @@
 
 @import "fonts";
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #000;
@@ -41,3 +44,4 @@ a {
 @import "trending";
 @import "popular";
 @import "banners";
+@import "footer";
