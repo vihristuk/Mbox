@@ -40,6 +40,11 @@ a {
   color: #fff;
 }
 
+ul, li {
+  list-style-type: none;
+  margin: 0;
+}
+
 @import "header";
 @import "trending";
 @import "popular";
