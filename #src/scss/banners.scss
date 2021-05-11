@@ -1,5 +1,6 @@
 .banners__container {
     align-items: center;
+    margin-top: 12px;
 }
 
 .banners__comming-soon {
@@ -21,9 +22,9 @@
 .comming-soon__text {
     position: absolute;
     right: 25%;
-    margin-right: -227.5px;
+    margin-right: -237px;
     top: 50%;
-    margin-top: -125.6px;
+    margin-top: -98px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,9 +35,11 @@
     text-transform: capitalize;
 }
 
+.comming-soon__img-margin-bottom {
+    margin-bottom: -32px;
+}
+
 .banners__register-now {
-    // display: flex;
-    // align-items: center;
     width: 1224px;
     height: 270px;
     margin-bottom: 121px;

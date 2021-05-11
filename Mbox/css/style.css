@@ -447,7 +447,7 @@ li {
   width: 93.75%;
   height: 2px;
   position: absolute;
-  bottom: -20px;
+  bottom: -45px;
   left: 50%;
   margin-left: -46.875%;
   background: #2F2E2E;
@@ -469,7 +469,7 @@ li {
           align-items: center;
   width: 1500px;
   height: 110px;
-  margin-bottom: 130px;
+  margin-bottom: 126px;
 }
 
 .header__menu {
@@ -504,7 +504,7 @@ li {
 
 .auth__item {
   padding: 5px;
-  margin-left: 50px;
+  margin-left: 58px;
 }
 
 .auth__item_no-ml {
@@ -522,7 +522,7 @@ li {
   font-weight: normal;
   font-size: 100px;
   line-height: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 44px;
 }
 
 .main__desc {
@@ -535,17 +535,19 @@ li {
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
+  margin-bottom: 27px;
 }
 
 .desc__item {
-  margin-right: 30px;
+  margin-right: 17px;
 }
 
 .desc__item_border {
   border: 1.5px solid transparent;
   border-radius: 50px;
-  padding: 2px 20px;
+  padding: 2px 16px;
   position: relative;
+  background: #000;
   background-clip: padding-box;
 }
 
@@ -570,7 +572,7 @@ li {
   font-size: 18px;
   line-height: 28px;
   color: #C2C2C2;
-  margin-bottom: 35px;
+  margin-bottom: 23px;
 }
 
 .main__buttons {
@@ -623,7 +625,7 @@ li {
   font-weight: bold;
   font-size: 28px;
   line-height: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 46px;
   margin-left: 16px;
   position: relative;
 }
@@ -641,7 +643,7 @@ li {
 }
 
 .section__tittle_margin-top {
-  margin-top: 100px;
+  margin-top: 115px;
 }
 
 .trending__shows {
@@ -651,7 +653,7 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   position: relative;
 }
 
@@ -692,7 +694,7 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 33px;
 }
 
 .popular__genre {
@@ -707,7 +709,7 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 52px;
   position: relative;
 }
 
@@ -743,13 +745,15 @@ li {
 }
 
 .actor__name {
-  margin-bottom: -35px;
+  margin-bottom: -44px;
+  font-size: 19px;
 }
 
 .banners__container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 12px;
 }
 
 .banners__comming-soon {
@@ -773,9 +777,9 @@ li {
 .comming-soon__text {
   position: absolute;
   right: 25%;
-  margin-right: -227.5px;
+  margin-right: -237px;
   top: 50%;
-  margin-top: -125.6px;
+  margin-top: -98px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -791,6 +795,10 @@ li {
   font-size: 64px;
   line-height: 20px;
   text-transform: capitalize;
+}
+
+.comming-soon__img-margin-bottom {
+  margin-bottom: -32px;
 }
 
 .banners__register-now {
