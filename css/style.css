@@ -434,7 +434,7 @@ li {
 }
 
 .section__hero {
-  background-image: url(/img/background.webp);
+  background-image: url(img/background.webp);
   background-repeat: no-repeat;
   background-position: center top;
   height: 825px;
